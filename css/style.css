@@ -183,13 +183,21 @@ a {
 		}
 }
 
+.outline-button {
+  font-family: "Roboto"; font-size: .5em; font-weight: 600;
+  border: solid 1px white;
+  color: white;
+  background-color: transparent;
+  padding: .5em 1.5em .5em 1.5em;
+  cursor: pointer; text-decoration: none;
+  transition: 0.3s;
+}
 
-.privacyLink {
-	font-size: 1.1em !important;
+.outline-button:hover {
+  background-color: white;
+  color: #1b1464;
 }
-.privacyLink:hover {
-	text-decoration: none !important;
-}
+
 .footerText {
 	color: white;
 }
